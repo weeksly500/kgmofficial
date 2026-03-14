@@ -267,21 +267,25 @@ const CarFeatureSidebar: React.FC<CarFeatureSidebarProps> = ({
         } bg-white p-0`}
         style={isMobile && sectionType === 'exterior' ? { top: '15%' } : {}}
         >
-          {/* Media Display - Centered */}
-          <div className="flex items-center justify-center w-full p-0">
-            <div className={`relative w-full overflow-hidden px-2 md:px-4 ${
-              isMobile && sectionType === 'exterior' ? 'h-[150px] max-w-[75%]' : 'h-[250px] md:h-[500px]'
+          {/* Media Display - Centered (min-height so video area never collapses) */}
+          <div className="flex flex-none items-center justify-center w-full p-0 min-h-[200px] md:min-h-[400px]">
+            <div className={`relative w-full overflow-hidden px-2 md:px-4 flex items-center justify-center ${
+              isMobile && sectionType === 'exterior' ? 'h-[150px] min-h-[150px] max-w-[75%]' : 'h-[250px] md:h-[500px] min-h-[250px] md:min-h-[500px]'
             }`}>
               {/* Show video first if it exists */}
               {content.video && currentHotspotImage === 0 && (
-                <video
-                  src={content.video}
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-full object-contain"
-                />
+                <figure className="w-full h-full min-h-[180px] md:min-h-[400px] flex items-center justify-center bg-black/5 rounded-lg">
+                  <video
+                    key={content.video}
+                    src={content.video}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="auto"
+                    className="w-full h-full min-h-[180px] md:min-h-[400px] object-contain block"
+                  />
+                </figure>
               )}
               
               {/* Show images array */}

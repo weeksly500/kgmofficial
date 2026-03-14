@@ -18,4 +18,5 @@ export const API_BASE_URL =
 export const API_ENDPOINTS = {
   COMING_SOON: `${API_BASE_URL}/coming-soon`,
   TEST_DRIVE: `${API_BASE_URL}/test-drive`,
+  ORDERS: `${API_BASE_URL}/orders`,
 } as const;

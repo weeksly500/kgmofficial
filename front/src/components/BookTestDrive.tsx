@@ -20,6 +20,7 @@ const BookTestDrive = () => {
     { id: 'tivoli', name: (t as any)?.models?.modelNames?.tivoli || "TIVOLI" },
     { id: 'torres', name: (t as any)?.models?.modelNames?.torres || "TORRES" },
     { id: 'torres-evx', name: (t as any)?.models?.modelNames?.torresEvx || "TORRES EVX" },
+    { id: 'torres-hybrid', name: (t as any)?.models?.modelNames?.torresHybrid || "TORRES HYBRID" },
     { id: 'rexton', name: (t as any)?.models?.modelNames?.rexton || "REXTON" },
     { id: 'musso-grand', name: (t as any)?.models?.modelNames?.mussoGrand || "GRAND MUSSO" },
   ];
@@ -41,7 +42,7 @@ const BookTestDrive = () => {
   useEffect(() => {
     if (modelFromUrl) {
       // Validate model ID against valid model IDs
-      const validModelIds = ['tivoli', 'torres', 'torres-evx', 'rexton', 'musso-grand'];
+      const validModelIds = ['tivoli', 'torres', 'torres-evx', 'torres-hybrid', 'rexton', 'musso-grand'];
       if (validModelIds.includes(modelFromUrl)) {
         setFormData(prev => ({ ...prev, model: modelFromUrl }));
       }
@@ -289,7 +290,7 @@ const BookTestDrive = () => {
               >
                 {/* Model Selection */}
                 <div>
-                  <label className="block text-gray-900 font-semibold mb-3">
+                  <label htmlFor="book-test-drive-model" className="block text-gray-900 font-semibold mb-3">
                     {bookTestDrive.modelLabel || "Model"}
                   </label>
                   <div className="relative">
@@ -297,6 +298,7 @@ const BookTestDrive = () => {
                       <Car className="h-5 w-5 text-gray-400" />
                     </div>
                     <select
+                      id="book-test-drive-model"
                       name="model"
                       value={formData.model}
                       onChange={handleInputChange}

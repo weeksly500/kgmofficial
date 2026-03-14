@@ -52,6 +52,13 @@ export default function ModelsPage() {
       isEV: true
     },
     {
+      id: 'torres-hybrid',
+      name: t('models.modelNames.torresHybrid'),
+      category: 'SUV',
+      badges: [t('models.badges.best')],
+      image: 'https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/360vr/white/img2.png'
+    },
+    {
       id: 'rexton',
       name: t('models.modelNames.rexton'),
       category: 'SUV',
@@ -142,6 +149,7 @@ export default function ModelsPage() {
                         model.id === 'tivoli' ? '/models/tivoli' : 
                         model.id === 'torres' ? '/models/torres' : 
                         model.id === 'torres-evx' ? '/models/torres-evx' : 
+                        model.id === 'torres-hybrid' ? '/models/torres-hybrid' : 
                         model.id === 'rexton' ? '/models/rexton' : 
                         model.id === 'musso-grand' ? '/models/musso-grand' : 
                         '#'
@@ -151,13 +159,15 @@ export default function ModelsPage() {
                       className="block"
                     >
                       <div className="aspect-[4/3] relative overflow-hidden rounded-lg bg-gray-100 cursor-pointer">
-                        <Image
-                          src={model.image}
-                          alt={model.name}
-                          fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-500"
-                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        />
+                        <div className={`absolute inset-0 ${model.id === 'torres-hybrid' ? 'pl-4' : ''}`}>
+                          <Image
+                            src={model.image}
+                            alt={model.name}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                          />
+                        </div>
                       </div>
                     </motion.a>
                     
@@ -180,6 +190,7 @@ export default function ModelsPage() {
                         model.id === 'tivoli' ? '/models/tivoli' : 
                         model.id === 'torres' ? '/models/torres' : 
                         model.id === 'torres-evx' ? '/models/torres-evx' : 
+                        model.id === 'torres-hybrid' ? '/models/torres-hybrid' : 
                         model.id === 'rexton' ? '/models/rexton' : 
                         model.id === 'musso-grand' ? '/models/musso-grand' : 
                         '#'

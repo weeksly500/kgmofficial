@@ -1,6 +1,7 @@
 {
   "navigation": {
     "models": "MODÈLES",
+    "myOrders": "MES COMMANDES",
     "brand": "MARQUE",
     "book": "RÉSERVER",
     "contactUs": "NOUS CONTACTER",
@@ -33,6 +34,10 @@
       "torresEv": {
         "title": "Torres EV",
         "headline": "Le Meilleur des Deux\nMondes - EV & SUV"
+      },
+      "torresHybrid": {
+        "title": "Torres Hybrid",
+        "headline": "Hybride\nDual Tech"
       },
       "grandMusso": {
         "title": "Grand Musso",
@@ -75,6 +80,7 @@
       "tivoli": "TIVOLI",
       "torres": "TORRES",
       "torresEvx": "TORRES EVX",
+      "torresHybrid": "TORRES HYBRID",
       "rexton": "REXTON",
       "mussoGrand": "GRAND MUSSO"
     },

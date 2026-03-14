@@ -37,6 +37,7 @@ const Navbar = () => {
   const leftMenuItems = [
     { name: (t as any)?.navigation?.models || "MODELS", href: '/models' },
     { name: (t as any)?.navigation?.contactUs || "CONTACT US", href: '/contact-us' },
+    { name: (t as any)?.navigation?.myOrders || "MY ORDERS", href: '/my-orders' },
   ];
 
   const rightMenuItems = [];
@@ -126,6 +127,7 @@ const Navbar = () => {
   const models = [
     { name: language === 'fr' ? 'Torres' : 'Torres', href: '/models/torres' },
     { name: language === 'fr' ? 'Torres EVX' : 'Torres EVX', href: '/models/torres-evx' },
+    { name: language === 'fr' ? 'Torres Hybrid' : 'Torres Hybrid', href: '/models/torres-hybrid' },
     { name: language === 'fr' ? 'Tivoli' : 'Tivoli', href: '/models/tivoli' },
     { name: language === 'fr' ? 'Rexton' : 'Rexton', href: '/models/rexton' },
     { name: language === 'fr' ? 'Musso Grand' : 'Musso Grand', href: '/models/musso-grand' },
@@ -283,6 +285,21 @@ const Navbar = () => {
                 className="relative text-white font-semibold uppercase tracking-wide text-sm cursor-pointer group"
               >
                 {(t as any)?.navigation?.contactUs || "CONTACT US"}
+                <motion.div
+                  className="absolute bottom-0 left-0 h-0.5 bg-white"
+                  initial={{ width: 0 }}
+                  whileHover={{ width: '100%' }}
+                  transition={{ duration: 0.2 }}
+                />
+              </motion.a>
+
+              {/* MY ORDERS */}
+              <motion.a
+                href="/my-orders"
+                whileHover={{ y: -2 }}
+                className="relative text-white font-semibold uppercase tracking-wide text-sm cursor-pointer group"
+              >
+                {(t as any)?.navigation?.myOrders || "MY ORDERS"}
                 <motion.div
                   className="absolute bottom-0 left-0 h-0.5 bg-white"
                   initial={{ width: 0 }}
@@ -476,6 +493,7 @@ const Navbar = () => {
                     { name: (t as any)?.models?.modelNames?.tivoli || "TIVOLI", href: '/models/tivoli' },
                     { name: (t as any)?.models?.modelNames?.torres || "TORRES", href: '/models/torres' },
                     { name: (t as any)?.models?.modelNames?.torresEvx || "TORRES EVX", href: '/models/torres-evx' },
+                    { name: (t as any)?.models?.modelNames?.torresHybrid || "TORRES HYBRID", href: '/models/torres-hybrid' },
                     { name: (t as any)?.models?.modelNames?.rexton || "REXTON", href: '/models/rexton' },
                     { name: (t as any)?.models?.modelNames?.mussoGrand || "GRAND MUSSO", href: '/models/musso-grand' },
                   ];

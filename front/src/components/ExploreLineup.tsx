@@ -34,8 +34,9 @@ const ExploreLineup = () => {
     { id: 1, title: (t as any)?.home?.exploreLineup?.tivoli?.title || "Tivoli", headline: (t as any)?.home?.exploreLineup?.tivoli?.headline || "Urban\nAdventure", image: "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/1P_GEN_RHD_COVER.jpg", href: "/models/tivoli" },
     { id: 2, title: (t as any)?.home?.exploreLineup?.torres?.title || "Torres", headline: (t as any)?.home?.exploreLineup?.torres?.headline || "Unexpected\nAdventure", image: imgTorresEvx, href: "/models/torres" },
     { id: 3, title: (t as any)?.home?.exploreLineup?.torresEv?.title || "Torres EV", headline: (t as any)?.home?.exploreLineup?.torresEv?.headline || "The Best of Both\nWorld - EV & SUV", image: imgTorres, href: "/models/torres-evx" },
-    { id: 4, title: (t as any)?.home?.exploreLineup?.rexton?.title || "Rexton", headline: (t as any)?.home?.exploreLineup?.rexton?.headline || "Luxury\nSUV", image: "/rexton.png", href: "/models/rexton" },
-    { id: 5, title: (t as any)?.home?.exploreLineup?.grandMusso?.title || "Grand Musso", headline: (t as any)?.home?.exploreLineup?.grandMusso?.headline || "Powerful\nPickup Truck", image: "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/hero/4P_EU_LHD_BLACK_EDITION_MAIN.jpg", href: "/models/musso-grand" },
+    { id: 4, title: (t as any)?.home?.exploreLineup?.torresHybrid?.title || "Torres Hybrid", headline: (t as any)?.home?.exploreLineup?.torresHybrid?.headline || "Dual Tech\nHybrid", image: "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/360vr/white/img2.png", href: "/models/torres-hybrid" },
+    { id: 5, title: (t as any)?.home?.exploreLineup?.rexton?.title || "Rexton", headline: (t as any)?.home?.exploreLineup?.rexton?.headline || "Luxury\nSUV", image: "/rexton.png", href: "/models/rexton" },
+    { id: 6, title: (t as any)?.home?.exploreLineup?.grandMusso?.title || "Grand Musso", headline: (t as any)?.home?.exploreLineup?.grandMusso?.headline || "Powerful\nPickup Truck", image: "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/hero/4P_EU_LHD_BLACK_EDITION_MAIN.jpg", href: "/models/musso-grand" },
   ];
 
   useEffect(() => {
