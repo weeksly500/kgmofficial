@@ -283,11 +283,11 @@ const TorresHybridPage = () => {
       title: language === "fr" ? "Système ADAS" : "ADAS System",
       subtitle:
         language === "fr"
-          ? "Contrôle de Croisière Adaptatif Intelligent (ACC & SSA)"
+          ? "SDA: Alerte vitesses et distance ; LDWS: Alerte de franchissement involontaire de ligne ; LKAS: Assistance au maintien dans la voie"
           : "Intelligent Adaptive Cruise Control (ACC & SSA)",
       description:
         language === "fr"
-          ? "L'ACC & SSA aide à maintenir une distance de sécurité avec le véhicule devant en fonction de la vitesse définie (lors de l'accélération, de la décélération, de l'arrêt et du démarrage) et assiste la conduite à une vitesse sûre."
+          ? ""
           : "ACC & SSA help maintaining a safe distance from the vehicle ahead based on the set speed (when accelerating, decelerating, stopping, and starting) and assists driving at a safe speed.",
       image: `${SAFETY_MEDIA_BASE}/20250905114403989_HMRPWb.jpg`,
       video: `${SAFETY_MEDIA_BASE}/20250905114404171_B6aX4I.mp4`,
@@ -359,12 +359,12 @@ const TorresHybridPage = () => {
       id: 4,
       title:
         language === "fr"
-          ? "Incluant un airbag latéral éloigné en 1ère rangée"
+          ? "Doté de 4 airbags (frontaux conducteur et passager, airbags rideaux), le véhicule garantit une protection efficace en cas de collision."
           : "Including a far-side airbag in the 1st row",
-      subtitle: language === "fr" ? "8 Airbags" : "8 Airbags",
+      subtitle: language === "fr" ? "" : "8 Airbags",
       description:
         language === "fr"
-          ? "Il y a 8 airbags à l'intérieur du véhicule incluant un airbag latéral éloigné pour la rangée avant."
+          ? ""
           : "There are 8 airbags inside the vehicle including one far-side airbag for the front row.",
       image: `${SAFETY_MEDIA_BASE}/20250908120447473_1r71b2.jpg`,
       bgColor: "bg-gray-200",
@@ -1474,16 +1474,12 @@ const TorresHybridPage = () => {
         title: language === "fr" ? "Jantes" : "Wheels",
         images: [
           "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/btns/retroviseur1.jpg",
-          "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/btns/retroviseur2.jpg",
           "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/btns/retroviseur3.jpg",
         ],
         texts: [
           language === "fr"
             ? '20" Jantes finition diamant avec pneus 245/45R'
             : '20" Diamond-cut finished wheels with 245/45R tyres',
-          language === "fr"
-            ? '18" Jantes finition diamant avec pneus 225/60R'
-            : '18" Diamond-cut finished wheels with 225/60R tyres',
           language === "fr"
             ? '17" Jantes alliage avec pneus 225/60R'
             : '17" Alloy wheels with 225/60R tyres',
