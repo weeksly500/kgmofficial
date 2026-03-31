@@ -1552,26 +1552,26 @@ const TorresHybridPage = () => {
       position: { x: "40%", y: "38%" },
       title:
         language === "fr"
-          ? '12.3" Panoramic display with Athena 2.0'
+          ? 'Écran panoramique 12,3" avec Athena 2.0'
           : '12.3" Panoramic display with Athena 2.0',
       description:
         language === "fr"
-          ? "Large-screen cluster with KGM UI integrated platform Athena 2.0"
+          ? "Combiné grand écran avec interface KGM et plateforme intégrée Athena 2.0."
           : "Large-screen cluster with KGM UI integrated platform Athena 2.0",
       content: {
         title:
           language === "fr"
-            ? '12.3" Panoramic display with Athena 2.0'
+            ? 'Écran panoramique 12,3" avec Athena 2.0'
             : '12.3" Panoramic display with Athena 2.0',
         subtitle:
           language === "fr"
-            ? "Large-screen cluster with KGM UI integrated platform Athena 2.0"
+            ? "Combiné grand écran avec interface KGM et plateforme intégrée Athena 2.0."
             : "Large-screen cluster with KGM UI integrated platform Athena 2.0",
         image:
           "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/btn1.jpg",
         texts: [
           language === "fr"
-            ? "The large-screen cluster with the KGM UI integrated platform Athena 2.0 provides real-time navigation dual maps, air conditioning controller, and so on."
+            ? "Le combiné grand écran avec la plateforme intégrée Athena 2.0 de KGM propose notamment la navigation en temps réel avec double carte et le contrôle de la climatisation."
             : "The large-screen cluster with the KGM UI integrated platform Athena 2.0 provides real-time navigation dual maps, air conditioning controller, and so on.",
         ],
       },
@@ -1581,26 +1581,26 @@ const TorresHybridPage = () => {
       position: { x: "62%", y: "43%" },
       title:
         language === "fr"
-          ? "2nd-row heated seat control"
+          ? "Commande des sièges chauffants 2e rangée"
           : "2nd-row heated seat control",
       description:
         language === "fr"
-          ? "The climate controller integrated into the panoramic display allows you to easily turn the second-row heated seats on and off."
+          ? "Le contrôleur de climatisation intégré à l'écran panoramique permet d'activer ou de désactiver facilement les sièges chauffants de la 2e rangée."
           : "The climate controller integrated into the panoramic display allows you to easily turn the second-row heated seats on and off.",
       content: {
         title:
           language === "fr"
-            ? "2nd-row heated seat control"
+            ? "Commande des sièges chauffants 2e rangée"
             : "2nd-row heated seat control",
         subtitle:
           language === "fr"
-            ? "The climate controller integrated into the panoramic display allows you to easily turn the second-row heated seats on and off."
+            ? "Le contrôleur de climatisation intégré à l'écran panoramique permet d'activer ou de désactiver facilement les sièges chauffants de la 2e rangée."
             : "The climate controller integrated into the panoramic display allows you to easily turn the second-row heated seats on and off.",
         image:
           "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/btn4.jpg",
         texts: [
           language === "fr"
-            ? "The climate controller integrated into the panoramic display allows you to easily turn the second-row heated seats on and off."
+            ? "Le contrôleur de climatisation intégré à l'écran panoramique permet d'activer ou de désactiver facilement les sièges chauffants de la 2e rangée."
             : "The climate controller integrated into the panoramic display allows you to easily turn the second-row heated seats on and off.",
         ],
       },
@@ -1610,26 +1610,26 @@ const TorresHybridPage = () => {
       position: { x: "46%", y: "73%" },
       title:
         language === "fr"
-          ? "2nd-row reclining seats"
+          ? "Sièges inclinables 2e rangée"
           : "2nd-row reclining seats",
       description:
         language === "fr"
-          ? "Designed with second-row passengers in mind, ensuring comfort and relaxation even on long journeys. (Including 60:40 split-folding)"
+          ? "Conçus pour les passagers de la 2e rangée, ils assurent confort et détente même sur les longs trajets. (Inclut le rabattement 60:40)"
           : "Designed with second-row passengers in mind, ensuring comfort and relaxation even on long journeys. (Including 60:40 split-folding)",
       content: {
         title:
           language === "fr"
-            ? "2nd-row reclining seats"
+            ? "Sièges inclinables 2e rangée"
             : "2nd-row reclining seats",
         subtitle:
           language === "fr"
-            ? "Designed with second-row passengers in mind, ensuring comfort and relaxation even on long journeys. (Including 60:40 split-folding)"
+            ? "Conçus pour les passagers de la 2e rangée, ils assurent confort et détente même sur les longs trajets. (Inclut le rabattement 60:40)"
             : "Designed with second-row passengers in mind, ensuring comfort and relaxation even on long journeys. (Including 60:40 split-folding)",
         video:
           "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/video5.mp4",
         texts: [
           language === "fr"
-            ? "Designed with second-row passengers in mind, ensuring comfort and relaxation even on long journeys. (Including 60:40 split-folding)"
+            ? "Conçus pour les passagers de la 2e rangée, ils assurent confort et détente même sur les longs trajets. (Inclut le rabattement 60:40)"
             : "Designed with second-row passengers in mind, ensuring comfort and relaxation even on long journeys. (Including 60:40 split-folding)",
         ],
       },
@@ -1637,22 +1637,22 @@ const TorresHybridPage = () => {
     {
       id: "centre-tray",
       position: { x: "50%", y: "75%" },
-      title: language === "fr" ? "Ambient lighting" : "Ambient lighting",
+      title: language === "fr" ? "Éclairage d'ambiance" : "Ambient lighting",
       description:
         language === "fr"
-          ? "The indirect lighting on the IP front, centre console, and door trims can be customized with up to 32 color combinations (with a default of 6 colors)."
+          ? "L'éclairage indirect de la planche de bord, de la console centrale et des garnitures de portes est personnalisable avec jusqu'à 32 combinaisons de couleurs (6 par défaut)."
           : "The indirect lighting on the IP front, centre console, and door trims can be customized with up to 32 color combinations (with a default of 6 colors).",
       content: {
-        title: language === "fr" ? "Ambient lighting" : "Ambient lighting",
+        title: language === "fr" ? "Éclairage d'ambiance" : "Ambient lighting",
         subtitle:
           language === "fr"
-            ? "The indirect lighting on the IP front, centre console, and door trims can be customized with up to 32 color combinations (with a default of 6 colors)."
+            ? "L'éclairage indirect de la planche de bord, de la console centrale et des garnitures de portes est personnalisable avec jusqu'à 32 combinaisons de couleurs (6 par défaut)."
             : "The indirect lighting on the IP front, centre console, and door trims can be customized with up to 32 color combinations (with a default of 6 colors).",
         video:
           "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/videobtn3.mp4",
         texts: [
           language === "fr"
-            ? "The indirect lighting on the IP front, centre console, and door trims can be customized with up to 32 color combinations (with a default of 6 colors)."
+            ? "L'éclairage indirect de la planche de bord, de la console centrale et des garnitures de portes est personnalisable avec jusqu'à 32 combinaisons de couleurs (6 par défaut)."
             : "The indirect lighting on the IP front, centre console, and door trims can be customized with up to 32 color combinations (with a default of 6 colors).",
         ],
       },
@@ -1662,20 +1662,20 @@ const TorresHybridPage = () => {
       position: { x: "73%", y: "36%" },
       title:
         language === "fr"
-          ? "Hanger sliding headrest"
+          ? "Appuie-tête coulissant avec cintre"
           : "Hanger sliding headrest",
       description:
         language === "fr"
-          ? "Can be used to conveniently hang items such as coats or shopping bags."
+          ? "Permet de suspendre facilement des articles tels que des manteaux ou des sacs de courses."
           : "Can be used to conveniently hang items such as coats or shopping bags.",
       content: {
         title:
           language === "fr"
-            ? "Hanger sliding headrest"
+            ? "Appuie-tête coulissant avec cintre"
             : "Hanger sliding headrest",
         subtitle:
           language === "fr"
-            ? "Can be used to conveniently hang items such as coats or shopping bags."
+            ? "Permet de suspendre facilement des articles tels que des manteaux ou des sacs de courses."
             : "Can be used to conveniently hang items such as coats or shopping bags.",
         images: [
           "https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/btn2.jpg",
@@ -1683,10 +1683,10 @@ const TorresHybridPage = () => {
         ],
         texts: [
           language === "fr"
-            ? "Can be used to conveniently hang items such as coats or shopping bags."
+            ? "Permet de suspendre facilement des articles tels que des manteaux ou des sacs de courses."
             : "Can be used to conveniently hang items such as coats or shopping bags.",
           language === "fr"
-            ? "Seatback pocket. Allowing second-row passengers to conveniently store items like smartphones."
+            ? "Poche dorsale de siège, permettant aux passagers de la 2e rangée de ranger facilement des objets comme les smartphones."
             : "Seatback pocket. Allowing second-row passengers to conveniently store items like smartphones.",
         ],
       },
@@ -2385,19 +2385,6 @@ const TorresHybridPage = () => {
                     </p>
                     <p className="point-title">
                       {language === "fr" ? "La liberté, redéfinie" : "Freedom, Redefined"}
-                    </p>
-                  </div>
-                </div>
-                <div className="selling-point__box">
-                  <div className="selling-point__img">
-                    <img src="https://en.kg-mobility.com/attached/contents/display/image/2000003000100090002/20250903152630515_9PLwRO.svg" alt="Torres in Black" className="w-10 h-10 lg:w-12 lg:h-12" />
-                  </div>
-                  <div className="selling-point__text">
-                    <p className="point-text">
-                      {language === "fr" ? "Edition Noire" : "Black Edition"}
-                    </p>
-                    <p className="point-title">
-                      {language === "fr" ? "Torres en noir" : "Torres in Black"}
                     </p>
                   </div>
                 </div>
@@ -3743,12 +3730,16 @@ const TorresHybridPage = () => {
                                   <h3
                                     className={`${feature.textColor} text-sm font-light mb-2 drop-shadow-lg`}
                                   >
-                                    {feature.title}
+                                    {feature.id === 4 && language === "fr"
+                                      ? `${feature.title.split(",")[0]},`
+                                      : feature.title}
                                   </h3>
                                   <h2
                                     className={`${feature.subtitleColor} text-xl md:text-2xl font-bold mb-3 md:mb-4 drop-shadow-lg`}
                                   >
-                                    {feature.subtitle}
+                                    {feature.id === 4 && language === "fr"
+                                      ? ""
+                                      : feature.subtitle}
                                   </h2>
                                   {feature.hasOpenButton && (
                                     <ToggleButton
@@ -3781,23 +3772,30 @@ const TorresHybridPage = () => {
                                 <div className="flex flex-col items-start backdrop-blur-sm bg-black/10 rounded-lg p-3 md:p-4">
                                   <p
                                     className={`${
-                                      feature.description.includes(
+                                      (feature.description || feature.title).includes(
                                         "Featuring an 8-way powered seat"
                                       ) ||
-                                      feature.description.includes(
+                                      (feature.description || feature.title).includes(
                                         "Toggle-switch type with auto hold"
                                       ) ||
-                                      feature.description.includes(
+                                      (feature.description || feature.title).includes(
                                         "By applying the HPF"
                                       ) ||
-                                      feature.description.includes(
+                                      (feature.description || feature.title).includes(
                                         "There are 8 airbags"
                                       )
                                         ? "text-white"
                                         : feature.textColor
                                     } text-sm leading-relaxed mb-4 drop-shadow-lg text-left`}
                                     dangerouslySetInnerHTML={{
-                                      __html: feature.description,
+                                      __html:
+                                        feature.id === 4 && language === "fr"
+                                          ? feature.title
+                                              .split(",")
+                                              .slice(1)
+                                              .join(",")
+                                              .trim()
+                                          : feature.description,
                                     }}
                                   />
                                 </div>

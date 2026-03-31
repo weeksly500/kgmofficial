@@ -56,7 +56,7 @@ export default function ModelsPage() {
       name: t('models.modelNames.torresHybrid'),
       category: 'SUV',
       badges: [t('models.badges.best')],
-      image: 'https://vbcgnalssebtzofpeslx.supabase.co/storage/v1/object/public/media/assets/Models/TORRESHYBRID/360vr/white/img2.png'
+      image: '/media/hybride/IMG_7647.PNG'
     },
     {
       id: 'rexton',
@@ -164,11 +164,7 @@ export default function ModelsPage() {
                             src={model.image}
                             alt={model.name}
                             fill
-                            className={
-                              model.id === "torres-hybrid"
-                                ? "object-cover object-center scale-[0.85] origin-center transition-transform duration-500 group-hover:scale-[0.8925]"
-                                : "object-cover group-hover:scale-105 transition-transform duration-500"
-                            }
+                            className="object-cover group-hover:scale-105 transition-transform duration-500"
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                           />
                         </div>
