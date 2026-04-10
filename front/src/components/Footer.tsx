@@ -91,7 +91,6 @@ export default function Footer() {
                 <div>
                   <p className="font-semibold mb-1">
                     {language === 'fr' ? "Rabat :" : "Rabat:"} 
-                    <span className="text-white/60 text-xs italic font-normal ml-2">({language === 'fr' ? "Ouverture prochaine" : "Coming soon"})</span>
                   </p>
                   <p className="text-white/70">457 Bd Hassan II, Résidence Meryem Agdal Rabat</p>
                 </div>

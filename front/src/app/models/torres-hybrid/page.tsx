@@ -2356,7 +2356,7 @@ const TorresHybridPage = () => {
           <div className="text-box w-full max-w-[1440px] flex flex-col font-sans bg-transparent rounded-lg p-6 lg:p-8" style={{ color: "#ffffff" }}>
             <div className="text-info">
               <h2><span>TORRES HYBRID</span></h2>
-              <p><span>Explore More, Discover More</span></p>
+              <p><span>{language === "fr" ? "Explorez sans limites, découvrez toujours plus." : "Explore More, Discover More"}</span></p>
             </div>
             <div className="text-box-bottom">
               <div className="btn-group">
