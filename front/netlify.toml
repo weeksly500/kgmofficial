@@ -5,25 +5,11 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
-  # Explicitly skip the plugin - it's auto-enabled by Netlify UI
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
-  # Enable Git LFS to download large files during build
-  GIT_LFS_ENABLED = "1"
 
-# Plugin removed from config - it's auto-enabled by Netlify UI (origin: ui)
-# To disable it, you must go to Netlify UI: Site settings → Build & deploy → Plugins
-# and disable "@netlify/plugin-nextjs" there
-
-# Git LFS plugin to download LFS files during build
 [[plugins]]
-  package = "@netlify/plugin-git-lfs"
+  package = "@netlify/plugin-nextjs"
 
-# Redirects for static export (fixes 404 errors on refresh)
-# Based on Stack Overflow solution: https://stackoverflow.com/questions/50752350/page-not-found-when-trying-to-access-a-site-deployed-on-netlify
-# This redirects all routes to index.html for client-side routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-# Functions not needed for static export
